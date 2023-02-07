@@ -1,0 +1,112 @@
+@media print {
+    html, body {
+        margin: 0;
+    }
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.left-bar {
+    position: absolute;
+
+    left: 0;
+    width: 40%;
+
+    background-color: rgb(62, 156, 98);
+}
+
+.profile-picture {
+    position: absolute;
+    
+    left: 50%;
+    top: 13%;
+    transform: translate(-50%, -50%);
+
+    width: 13rem;
+    height: 13rem;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+.section {
+    position: relative;
+
+    margin-top: 5rem;
+    margin-left: 1rem;
+
+    font-size: 0.9em;
+}
+
+.section ul, .section li {
+    list-style: none;
+}
+
+.section .info-icon {
+    margin-left: 30px;
+}
+
+.section img {
+    position: absolute;
+
+    width: 1.5rem;
+    height: 1.5rem;
+
+    margin-top: -2px;
+}
+
+.section .divisor {
+    position: absolute;
+
+    top: -0.5rem;
+}
+
+.right-bar {
+    position: absolute;
+
+    right: 0;
+    width: 60%;
+    height: 11.75in;
+
+    background-color: white;
+}
+
+.right-bar .name {
+    text-align: center;
+    margin-top: 1rem;
+
+    font-size: 2.5em;
+    color:rgb(38, 95, 60);
+
+}
+
+.description {
+    text-align: left;
+    width: 90%;
+
+    margin-top: 1rem;
+    margin-inline: auto;
+}
+
+.group {
+    position: relative;
+    margin-left: 1rem;
+    width: 90%;
+}
+
+.group .divisor {
+    position: absolute;
+    top: -0.5rem;
+}
+
+.group li {
+    margin-top: 0.26rem;
+}
