@@ -1,6 +1,8 @@
 @media print {
-    html, body {
-        margin: 0;
+    body {
+        width: 8.25in;
+        height: 11.75in;
+        margin: 0 0 0 0;
     }
 }
 
@@ -10,6 +12,9 @@ html, body {
 
 
     font-family: 'Quicksand', sans-serif;
+
+    background-color: rgb(62, 156, 98);
+
 }
 
 
@@ -40,7 +45,7 @@ html, body {
 .section {
     position: relative;
 
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-left: 1rem;
 
     font-size: 0.9em;
@@ -77,6 +82,8 @@ html, body {
     height: 11.75in;
 
     background-color: white;
+
+    z-index: 2;
 }
 
 .right-bar .name {
